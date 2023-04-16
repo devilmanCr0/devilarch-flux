@@ -1,0 +1,19 @@
+[begin] (FluxBox) 
+    [exec] (shell) {xfce4-terminal}
+    [submenu] (editors)
+        [exec] (Vim) {xterm -e vim}
+    [end]
+    [submenu] (utilities)
+        [exec] (Parcellite) {parcellite}
+    [end]
+    [separator]
+    [submenu] (fluxbox)
+        [workspaces] (workspaces)
+        [submenu] (styles)
+            [stylesdir] (~/.fluxbox/styles)
+        [end]
+        [reconfig] (reconfig)
+        [separator]
+        [exit] (logout)
+    [end]
+[end]

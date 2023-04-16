@@ -1,0 +1,7 @@
+session.menuFile ~/.fluxbox/menu
+session.keyFile ~/.fluxbox/keys
+session.styleFile: ~/.fluxbox/styles/devilarch
+session.configVersion: 13
+session.screen0.workspaceNames: 1,2,3,4,
+session.screen0.strftimeFormat: %c
+session.styleOverlay: ~/.fluxbox/overlay
